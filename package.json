@@ -2,8 +2,7 @@
   "name": "react-notion-x",
   "version": "4.11.0",
   "description": "Fast and accurate React renderer for Notion.",
-  "repository": "NotionX/react-notion-x",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "repository": "eriknson/react-notion-x",
   "license": "MIT",
   "main": "build/cjs/index.js",
   "module": "build/esm/index.js",
@@ -43,5 +42,5 @@
     "react": ">=16",
     "react-dom": ">=16"
   },
-  "gitHead": "91ee3a539561f98d04a0351f844893d0a00567bb"
+  "gitHead": "d07651741e29d342f6bd219dc35343272cfe8b37"
 }
