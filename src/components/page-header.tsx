@@ -114,7 +114,7 @@ export const PageHeader: React.FC<{}> = () => {
                   )}
 
                   {breadcrumb.title && (
-                    <span className="title">Lorem ipsum</span>
+                    <span className="title">{breadcrumb.title}</span>
                   )}
                 </componentMap.pageLink>
 
@@ -126,7 +126,21 @@ export const PageHeader: React.FC<{}> = () => {
           })}
         </div>
 
-        <div className="rhs">Right hand side :)</div>
+        <div>Test</div>
+
+        <div className="rhs">
+          {hasSearch && (
+            <div
+              role="button"
+              className={cs("breadcrumb", "button", "notion-search-button")}
+              onClick={onOpenSearch}
+            >
+              <SearchIcon className="searchIcon" />
+
+              <span className="title">Search</span>
+            </div>
+          )}
+        </div>
       </div>
     </header>
   );
