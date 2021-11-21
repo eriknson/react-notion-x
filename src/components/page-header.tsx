@@ -89,7 +89,7 @@ export const PageHeader: React.FC<{}> = () => {
         />
       )}
 
-      <div className="nav-header">
+      {/* <div className="nav-header">
         <div className="breadcrumbs">
           {breadcrumbs.map((breadcrumb, index) => {
             const pageLinkProps: any = {};
@@ -124,9 +124,7 @@ export const PageHeader: React.FC<{}> = () => {
               </React.Fragment>
             );
           })}
-        </div>
-
-        <div>Test</div>
+        </div> */}
 
         <div className="rhs">
           {hasSearch && (
